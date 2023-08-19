@@ -57,23 +57,6 @@ controls.register_on_release(function(player, control_name, time)
 	end
 end)
 
--- controls.register_on_press(function(player, control_name)
--- 	if
--- 		control_name == "right"
--- 		or control_name == "left"
--- 		or control_name == "LMB"
--- 		or control_name == "RMB"
--- 		or control_name == "aux1"
--- 		or control_name == "down"
--- 		or control_name == "up"
--- 		or control_name == "zoom"
--- 		or control_name == "dig"
--- 		or control_name == "place"
--- 	then
--- 		cancel(player)
--- 	end
--- end)
-
 controls.register_on_hold(function(player, control_name)
 	if
 		control_name == "right"
